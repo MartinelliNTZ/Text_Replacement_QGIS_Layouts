@@ -41,7 +41,7 @@ Use apenas a parte do texto que deseja alterar (não é necessário incluir todo
 
 O comportamento é literal e sensível a caixa — 'Texto' ≠ 'texto'.
 
-🔎 O que o script faz (resumo técnico)
+##🔎 O que o script faz (resumo técnico)
 
 Importa as classes necessárias:
 
@@ -65,7 +65,7 @@ Exibe no console o Antes: e Depois: para cada alteração.
 
 Não grava o projeto automaticamente — permite revisão antes de salvar.
 
-📝 Saída / Logs
+##📝 Saída / Logs
 
 O script imprime no console:
 
@@ -76,7 +76,7 @@ Para cada alteração: nome do layout, texto Antes e Depois.
 Mensagem final indicando conclusão:
 ✅ Processamento concluído (nenhum dado salvo automaticamente).
 
-⚠️ Limitações e cuidados
+##⚠️ Limitações e cuidados
 
 Afeta apenas QgsLayoutItemLabel (rótulos de layout).
 
@@ -88,7 +88,7 @@ Se old_text vier a aparecer em contextos indesejados (assinaturas, notas), tamb�
 
 Faça backup do projeto antes de executar em ambientes de produção.
 
-✅ Boas práticas
+##✅ Boas práticas
 
 Teste antes em uma cópia do projeto.
 
@@ -98,7 +98,7 @@ Revise as mensagens de console e, após validação, salve o projeto manualmente
 
 Para operações em larga escala, execute em etapas (listas menores de substituições).
 
-🧾 Exemplo mínimo do fluxo
+##🧾 Exemplo mínimo do fluxo
 
 Definir substituicoes.
 
@@ -108,28 +108,15 @@ Revisar saída no console (Antes / Depois).
 
 Salvar projeto se as alterações estiverem corretas.
 
-🛠️ Sugestões de melhoria (futuras)
 
-Adicionar opção interativa para confirmar substituições antes de aplicá-las.
-
-Implementar correspondência case-insensitive opcional.
-
-Gerar um relatório em arquivo (CSV / TXT) com todas as alterações realizadas.
-
-Suportar expressões regulares para correspondências avançadas.
-
-📚 Referência do Autor
+##📚 Referência do Autor
 
 Autor: M. Martinelli
 Data: 31/10/2025
 Compatibilidade: QGIS 3.22 ou superior
 Linguagem: Python 3 (Console Python do QGIS)
 
-🪶 Licença
+##🪶 Licença
 
 Este script pode ser usado e adaptado livremente, desde que mantida a autoria original. Recomenda-se documentar alterações com data e autor para controle de versão.
 
-
-
-    # 'Texto_antigo': 'Texto_novo'
-}
