@@ -117,7 +117,7 @@ Data: 31/10/2025
 Compatibilidade: QGIS 3.22 ou superior
 Linguagem: Python 3 (Console Python do QGIS)
 
-##🪶 Licença
+## 🪶 Licença
 
 Este script pode ser usado e adaptado livremente, desde que mantida a autoria original. Recomenda-se documentar alterações com data e autor para controle de versão.
 
