@@ -42,7 +42,7 @@ Use apenas a parte do texto que deseja alterar (não é necessário incluir todo
 
 O comportamento é literal e sensível a caixa — 'Texto' ≠ 'texto'.
 
-##🔎 O que o script faz (resumo técnico)
+## 🔎 O que o script faz (resumo técnico)
 
 Importa as classes necessárias:
 
@@ -66,7 +66,7 @@ Exibe no console o Antes: e Depois: para cada alteração.
 
 Não grava o projeto automaticamente — permite revisão antes de salvar.
 
-##📝 Saída / Logs
+## 📝 Saída / Logs
 
 O script imprime no console:
 
@@ -77,7 +77,7 @@ Para cada alteração: nome do layout, texto Antes e Depois.
 Mensagem final indicando conclusão:
 ✅ Processamento concluído (nenhum dado salvo automaticamente).
 
-##⚠️ Limitações e cuidados
+## ⚠️ Limitações e cuidados
 
 Afeta apenas QgsLayoutItemLabel (rótulos de layout).
 
@@ -89,7 +89,7 @@ Se old_text vier a aparecer em contextos indesejados (assinaturas, notas), tamb�
 
 Faça backup do projeto antes de executar em ambientes de produção.
 
-##✅ Boas práticas
+## ✅ Boas práticas
 
 Teste antes em uma cópia do projeto.
 
@@ -99,7 +99,7 @@ Revise as mensagens de console e, após validação, salve o projeto manualmente
 
 Para operações em larga escala, execute em etapas (listas menores de substituições).
 
-##🧾 Exemplo mínimo do fluxo
+## 🧾 Exemplo mínimo do fluxo
 
 Definir substituicoes.
 
@@ -110,7 +110,7 @@ Revisar saída no console (Antes / Depois).
 Salvar projeto se as alterações estiverem corretas.
 
 
-##📚 Referência do Autor
+## 📚 Referência do Autor
 
 Autor: M. Martinelli
 Data: 31/10/2025
