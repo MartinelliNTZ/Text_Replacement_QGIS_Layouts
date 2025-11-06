@@ -36,7 +36,8 @@ Edite o dicionário `substituicoes` no início do script para definir as mudanç
 ```python
 substituicoes = {
     'Fazenda São João': 'Fazenda MTL',
-    'FAZENDA SÃO JOÃO': 'FAZENDA MTL'}```
+    'FAZENDA SÃO JOÃO': 'FAZENDA MTL'}
+```
 Use apenas a parte do texto que deseja alterar (não é necessário incluir todo o conteúdo do rótulo).
 
 O comportamento é literal e sensível a caixa — 'Texto' ≠ 'texto'.
