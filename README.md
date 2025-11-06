@@ -1,5 +1,3 @@
-# Text_Replacement_QGIS_Layouts
-
 # 🧾 Manual de Uso — Script de Substituição de Textos em Layouts QGIS
 **Criado por:** M. Martinelli  
 **Data de criação:** 31/10/2025  
